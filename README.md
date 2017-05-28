@@ -6,7 +6,7 @@
 
 ## Opis Aplikacji
 
-Aplikacja służy do przypomnienia najważniejszych definicji z zakresu finansów. Przeznaczona jest dla użytkowników, którzy pragną przypomnieć sobie zagadnienia finansowe przed rozmową o pracę czy przed ważnymi egzaminami. Aplikacja będzie działa w formie testu(quizu). Pytania są przechowywane w wewnętrznej bazie danych użytkownika (SQLite) z możliwością aktualizacji. Dostępne są również statystyki wszystkich graczy przechowywane w zewnętrznej bazie danych.
+Aplikacja służy do przypomnienia najważniejszych definicji z zakresu finansów. Przeznaczona jest dla użytkowników, którzy pragną odświeżyć sobie zagadnienia finansowe przed rozmową o pracę czy przed ważnymi egzaminami. Aplikacja będzie działa w formie testu(quizu). Pytania są przechowywane w wewnętrznej bazie danych użytkownika (SQLite) z możliwością aktualizacji. Dostępne są również statystyki wszystkich graczy przechowywane w zewnętrznej bazie danych.
 
 ## Funkcjonalności
 - 3 poziomy trudnośc: łatwy, średni, trudny;
@@ -27,7 +27,7 @@ W projekcie wykorzystane zostały zagadnienia znane z zajęć. Użyte zostały m
 
 **Obsługa Aplikacji**
 
-Po włączeniu programu włączona zostaje krótka animacja po jej zakończeniu użytkownik proszony jest o padanie nicku, który będzie go identyfikował w czasie dalszego kożystania z funkcjonalności aplikacji.Po wpisaniu nicku i zatwierdzeniu włączane jest główne menu aplikacji z czterema przyciskami. Użytkownik ma możliwość sprawdzania swojej wiedzy na 3 poziomach trudności, które różnią się czasem, który jest przewidziany na udzielanie odpowiedzi na poszczególne pytania, jest on rózny w zależności od wybranego poziomu trudności. Po upływie czasu wyświetlany jest procentowy wynik jaki osiągnął użytkownik wraz z obrazującym go poziomem wypełnienia Progressbar. Jeżeli użytkownik ma połączenie z Internetem jego wynik wraz z nickiem jest zapisywany w bazie danych, w przeciwnym wypadku wyświetlany jest komunikat informujący, że wynik nie zostanie zapisany. Użytkownik ma również możliwość prówania swoich wyników z wynikami innych jeżeli oczywiście posiada połączenie z internetem, jego brak sygnalizowany jest odpowiednim komunikatem. 
+Po włączeniu programu włączona zostaje krótka animacja. Po jej zakończeniu użytkownik proszony jest o padanie nicku, który będzie go identyfikował w czasie dalszego kożystania z funkcjonalności aplikacji.Po wpisaniu nicku i zatwierdzeniu, włączane jest główne menu aplikacji z czterema przyciskami. Użytkownik ma możliwość sprawdzania swojej wiedzy na 3 poziomach trudności, które różnią się czasem, który jest przewidziany na udzielanie odpowiedzi na poszczególne pytania, jest on rózny w zależności od wybranego poziomu trudności. Po upływie czasu wyświetlany jest procentowy wynik jaki osiągnął użytkownik wraz z obrazującym go poziomem wypełnienia Progressbar. Jeżeli użytkownik ma połączenie z Internetem jego wynik wraz z nickiem jest zapisywany w bazie danych, w przeciwnym wypadku wyświetlany jest komunikat informujący, że wynik nie zostanie zapisany. Użytkownik ma również możliwość porówania swoich wyników z wynikami innych jeżeli oczywiście posiada połączenie z internetem, jego brak sygnalizowany jest odpowiednim komunikatem. 
 
 **Wygląd aplikacji**
 
