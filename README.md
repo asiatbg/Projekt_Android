@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+## Przygotowanie do rozmowy kwalifikacyjnej
 
-You can use the [editor on GitHub](https://github.com/patrycja7/Projekt_Android/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Autorzy projektu
+1. Patrycja Kazek s186799 KrDZIs3012Io
+2. Joanna Kolańczyk s186883 KrDZIs3012Io
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Opis Aplikacji
 
-### Markdown
+Aplikacja służy do przypomnienia najważniejszych definicji z zakresu finansów. Przeznaczona jest dla użytkowników, którzy pragną przypomnieć sobie zagadnienia finansowe przed rozmową o pracę czy przed ważnymi egzaminami. Aplikacja będzie działa w formie testu(quizu). Pytania są przechowywane w wewnętrznej bazie danych użytkownika (SQLite) z możliwością aktualizacji. Dostępne są również statystyki wszystkich graczy przechowywane w zewnętrznej bazie danych.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Funkcjonalności
+- 3 poziomy trudnośc: łatwy, średni, trudny;
+- możliwość ustawienia własnego nicku;
+- zapis wyniku do bazy danych;
+- Wyświetlanie statystyk wszystkich graczy;
 
-```markdown
-Syntax highlighted code block
+## Użyta technologia
 
-# Header 1
-## Header 2
-### Header 3
+Projekt powstał w oparciu o Android SDK z wykorzystaniem pakietu Android Studio i jezyka Java. 
 
-- Bulleted
-- List
+## Dokumentacja
 
-1. Numbered
-2. List
+**Wykorzystane klasy**
 
-**Bold** and _Italic_ and `Code` text
+W projekcie wykorzystane zostały zagadnienia znane z zajęć. Użyte zostały m.in aktywności, intencje, preferencje, AsyncTask, SQLiteOpenHelper, alertDialog.
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**Obsługa Aplikacji**
 
-### Jekyll Themes
+Po włączeniu programu włączona zostaje krótka animacja po jej zakończeniu użytkownik proszony jest o padanie nicku, który będzie go identyfikował w czasie dalszego kożystania z funkcjonalności aplikacji.Po wpisaniu nicku i zatwierdzeniu włączane jest główne menu aplikacji z czterema przyciskami. Użytkownik ma możliwość sprawdzania swojej wiedzy na 3 poziomach trudności, które różnią się czasem, który jest przewidziany na udzielanie odpowiedzi na poszczególne pytania, jest on rózny w zależności od wybranego poziomu trudności. Po upływie czasu wyświetlany jest procentowy wynik jaki osiągnął użytkownik wraz z obrazującym go poziomem wypełnienia Progressbar. Jeżeli użytkownik ma połączenie z Internetem jego wynik wraz z nickiem jest zapisywany w bazie danych, w przeciwnym wypadku wyświetlany jest komunikat informujący, że wynik nie zostanie zapisany. Użytkownik ma również możliwość prówania swoich wyników z wynikami innych jeżeli oczywiście posiada połączenie z internetem, jego brak sygnalizowany jest odpowiednim komunikatem. 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/patrycja7/Projekt_Android/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**Wygląd aplikacji**
 
-### Support or Contact
+Wygląd poszczególnych aktywności aplikacji widoczny jest w albumie umieszczonym na stronie imgur.com. Link do strony znajduje się poniżej:
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Aplikacja](http://imgur.com/a/tIP5g)
