@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Finanse</string>
+    <string name="hard">Trudny</string>
+    <string name="medium">Średni</string>
+    <string name="easy">Łatwy</string>
+    <string name="statistics">Statystyki</string>
+    <string name="tv_nick">Twój Nick:</string>
+    <string name="message">Wybrany nick zostanie przypisany do użytkownika na stałe.</string>
+    <string name="menu">Menu</string>
+    <string name="result">Wynik:</string>
+    <string name="alertDialog_tv_nick">Nick:</string>
+    <string name="user_statistics">Statystyki użytkowników</string>
+    <string name="score">Wynik: 1</string>
+    <string name="time">00:00:49</string>
+    <string name="question">Co oznacza ten znak $?</string>
+    <string name="answer_a">dolara</string>
+    <string name="answer_b">dolara</string>
+    <string name="answer_c">dolara</string>
+</resources>

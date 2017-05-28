@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/result_bg"
+    android:id="@+id/container">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:layout_marginTop="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+    android:id="@+id/circularProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="150dip"
+        android:layout_height="150dip"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="10"
+        android:progressDrawable="@drawable/progressbar"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/circularProgressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp" />
+
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="@string/tv_nick"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/circularProgressBar"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/nick"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_below="@+id/textView" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu"
+        android:onClick="returnMenu"
+        android:id="@+id/button2"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/nick"
+        android:layout_alignRight="@+id/text"
+        android:layout_alignEnd="@+id/text" />
+
+
+</RelativeLayout>

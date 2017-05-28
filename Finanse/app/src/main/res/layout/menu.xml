@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/glassbuilding"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/easy"
+        android:layout_width="188dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/transparent"
+        android:text="@string/easy"
+        android:layout_marginBottom="10dp"
+        android:textColor="#f2ded5"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:onClick="OpenLevelEasy"/>
+    <Button
+        android:id="@+id/medium"
+        android:layout_width="188dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:background="@drawable/transparent"
+        android:text="@string/medium"
+        android:layout_margin="10dp"
+        android:textColor="#f2ded5"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:onClick="OpenLevelMedium"/>
+    <Button
+        android:id="@+id/hard"
+        android:layout_width="188dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/transparent"
+        android:text="@string/hard"
+        android:textColor="#f2ded5"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:onClick="OpenLevelHard"/>
+    <Button
+        android:id="@+id/statistics"
+        android:layout_width="188dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:background="@drawable/transparent"
+        android:text="@string/statistics"
+        android:layout_margin="10dp"
+        android:textColor="#f2ded5"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:onClick="OpenStatistics"/>
+
+
+</LinearLayout>
